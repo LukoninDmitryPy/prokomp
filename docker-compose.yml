@@ -1,0 +1,16 @@
+version: '3'
+services:
+  flask:
+    # Путь до Dockerfile
+    build: .
+    ports:
+      - '5000:5000'
+    expose:
+      - '5000'
+    container_name: backend-flask
+    # Перезапускаем сервис в случае падения 
+    restart: on-failure
+    # Прокладывам путь для файлов. Все файлы, которые хранятся у вас в 
+    # директории ./backend, появятся в директории контейнера /backend
+    volumes:
+      - ./prokomp
