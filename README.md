@@ -1,5 +1,4 @@
 # prokomp
-# R4C
 [![Python](https://img.shields.io/badge/-Python-464646?style=flat-square&logo=Python)](https://www.python.org/)
 [![Flask](https://img.shields.io/badge/-Flask-464646?style=flat-square&logo=Flask)](https://flask-docs.readthedocs.io/)
 [![pandas](https://img.shields.io/badge/-pandas-464646?style=flat-square&logo=pandas)](https://pandas.pydata.org/)
